@@ -1,2 +1,3 @@
-let array = [2,4,6,8]
-console.log(array.fill(1,2,4))
+let array = ("The Big Bang Theory")
+let division = array.split(" ", 4)
+console.log (division)
