@@ -1,1 +1,1 @@
-let matriz = ['Joan',21,'O',]
+let matriz = Array ('banana','manzana')
