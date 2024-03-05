@@ -1,3 +1,5 @@
-let array = ("The Big Bang Theory")
-let division = array.split(" ", 4)
-console.log (division)
+let nombresmasculinos = ['Pedro','Juan','Alberto','Damian','Raul','Gustavo'];
+let nombresfemeninos = ['Maria','Josefina','Ana','Miriam','Julieta'];
+
+let nombres =  [...nombresmasculinos,...nombresfemeninos,];
+console.log(nombres);
