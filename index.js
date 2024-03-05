@@ -1,1 +1,1 @@
-let matriz = ['Joan', 'Santiago','Yulieth','Edgar']
+let matriz = ['Joan',21,'O',]
