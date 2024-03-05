@@ -1,2 +1,2 @@
-console.log(Array.from([4,5,6], (x)=> x + x));
-
+let array = [2,4,6,8]
+console.log(array.fill(1,2,4))
