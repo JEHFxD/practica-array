@@ -1,2 +1,3 @@
-let ropa = ['zapatos','jean','camisa','medias','boxer']
-console.log(ropa.length)
+let colores= ['azul','rojo','verde','amarillo','morado']
+let nuevocolor = colores.push('plateado')
+console.log(nuevocolor)
