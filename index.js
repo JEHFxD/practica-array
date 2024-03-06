@@ -1,5 +1,5 @@
+let nombres = ["Joan","Miguel","Natalia","Pamela"]
+let nombresfemeninos = nombres.slice(2,4)
+console.log(nombresfemeninos)
 
-let nombres = ["Pamela","Miguel","Natalia","Joan"]
-let nombres2= nombres.shift()
-console.log(nombres2)
 
