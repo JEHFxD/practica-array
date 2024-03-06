@@ -1,5 +1,5 @@
 
-let programas = ["Loki","The Mentalist","TBBT"]
-let misprogramasfavoritos = programas.unshift("Lucifer")
-console.log(misprogramasfavoritos)
+let nombres = ["Pamela","Miguel","Natalia","Joan"]
+let nombres2= nombres.shift()
+console.log(nombres2)
 
