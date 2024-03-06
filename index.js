@@ -1,3 +1,5 @@
-let colores= ['azul','rojo','verde','amarillo','morado']
-let nuevocolor = colores.push('plateado')
-console.log(nuevocolor)
+let juegos = ["halo","wow","gow"]
+let ultimojuego = juegos.pop()
+console.log(juegos)
+console.log(ultimojuego)
+
