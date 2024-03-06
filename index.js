@@ -1,9 +1,11 @@
-let array = [];
+function generarArray(altura, minimo, maximo) {
+    let array = [];
+    for (let i = 0; i < altura; i++) {
+        let numeroAleatorio = Math.floor(Math.random() * (maximo - minimo + 1)) + minimo;
+        array.push(numeroAleatorio);
+    }
+    return array;
+}
 
-array.push(["nombre", "Joan"]);
-array.push(['apellido', "Hincapie"]);
-array.push(['edad', 21]);
-
-array.forEach(function(datos) {
-  console.log(datos);
-});
+let miArray = generarArray(30, 5, 210);
+console.log(miArray);
