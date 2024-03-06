@@ -1,4 +1,3 @@
-let juegos = ["halo","wow","gow"]
-let ultimojuego = juegos.pop()
-console.log(juegos)
-console.log(ultimojuego)
+let programas = ["Loki","The Mentalist","TBBT"]
+let misprogramasfavoritos = programas.unshift("Lucifer")
+console.log(misprogramasfavoritos)
