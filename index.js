@@ -1,3 +1,9 @@
-let series =['Loki','Daredevil','Loki','Moonknight','Daredevil']
-let unicos = [...new Set(series)]
-console.log(unicos)
+let array = [];
+
+array.push(["nombre", "Joan"]);
+array.push(['apellido', "Hincapie"]);
+array.push(['edad', 21]);
+
+array.forEach(function(datos) {
+  console.log(datos);
+});
